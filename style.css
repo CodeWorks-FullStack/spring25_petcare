@@ -26,6 +26,10 @@ header {
   border-bottom: 2px solid black;
 }
 
+nav {
+  gap: 2rem;
+}
+
 /* NOTE the '.' denotes that this is a class. You can name your class whatever you want, but name it something that makes sense */
 .display-flex {
   display: flex;
@@ -33,4 +37,17 @@ header {
 
 .justify-content-evenly {
   justify-content: space-evenly;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.5rem;
+  margin-right: 3rem;
 }
