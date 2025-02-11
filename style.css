@@ -2,13 +2,35 @@
 footer {
   background-color: #1F2130;
   color: white;
+  padding: 3rem;
 }
 
 body {
   margin: 0px;
 }
 
+header,
+main {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+main {
+  margin-bottom: 6rem;
+}
+
+header {
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-bottom: 2px solid black;
+}
+
 /* NOTE the '.' denotes that this is a class. You can name your class whatever you want, but name it something that makes sense */
 .display-flex {
   display: flex;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
 }
