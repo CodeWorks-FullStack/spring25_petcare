@@ -7,6 +7,9 @@ footer {
 
 body {
   margin: 0px;
+  flex-direction: column;
+  /* NOTE think of view height as a percentage of the viewport(browser window) */
+  min-height: 100dvh;
 }
 
 header,
