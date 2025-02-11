@@ -1,17 +1,21 @@
 /* footer is our element selector */
 footer {
   background-color: #1F2130;
+  /* NOTE all elements in the footer will inherit this color property */
   color: white;
   padding: 3rem;
 }
 
 body {
-  margin: 0px;
+  display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  margin: 0px;
   /* NOTE think of view height as a percentage of the viewport(browser window) */
   min-height: 100dvh;
 }
 
+/* NOTE rule applies to header and main */
 header,
 main {
   margin-left: 5rem;
@@ -30,19 +34,25 @@ header {
 }
 
 nav {
+  /* NOTE gap will apply spacing in between each flex-item (children of the nav element) */
   gap: 2rem;
 }
 
 /* NOTE the '.' denotes that this is a class. You can name your class whatever you want, but name it something that makes sense */
 .display-flex {
+  /* NOTE display: flex will create a dynamic layout where all direct children will have their width set to fit-content and set them side-by-side */
   display: flex;
 }
 
+
 .justify-content-evenly {
+  /* NOTE this is used as a flex-behavior on an element that is display:flex, and allows to adjust the positioning of the flex items(direct children) */
+  /* NOTE justify-content will adjust spacing on the x-axis (left and right) */
   justify-content: space-evenly;
 }
 
 .align-items-center {
+  /* NOTE align-items will adjust spacing on the y-axis (up and down) */
   align-items: center;
 }
 
