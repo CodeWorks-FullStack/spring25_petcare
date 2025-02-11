@@ -7,3 +7,8 @@ footer {
 body {
   margin: 0px;
 }
+
+/* NOTE the '.' denotes that this is a class. You can name your class whatever you want, but name it something that makes sense */
+.display-flex {
+  display: flex;
+}
